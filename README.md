@@ -76,8 +76,8 @@ python RaffleTool.py
 2) 100g                → Random Number: 51
 ...
 === RAFFLE RESULTS ===
-1) 150g                (73) → Winner: Riven (69) ⚠️ Ties: Huko Yappingtail
-2) 100g                (51) → Winner: Nyah (51)
+1) 150g                (73) → Winner: Tony (69) ⚠️ Ties: Bob
+2) 100g                (51) → Winner: Rachel (51)
 ...
 ```
 
