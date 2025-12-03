@@ -8,6 +8,8 @@ RaffleTool allows you to:
 * Accept submissions manually or via `.txt` import.
 * Automatically determine the closest-number winner for each prize.
 * Highlight ties and display additional insights sorted by distance.
+  
+<img width="634" height="1097" alt="raffletool2" src="https://github.com/user-attachments/assets/0e1beb2e-447e-4d11-a7a4-ac2ea6cc4440" />
 
 ---
 
