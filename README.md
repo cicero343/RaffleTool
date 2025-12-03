@@ -9,7 +9,7 @@ RaffleTool allows you to:
 * Automatically determine the closest-number winner for each prize.
 * Highlight ties and display additional insights sorted by distance.
   
-<img width="634" height="1097" alt="raffletool2" src="https://github.com/user-attachments/assets/0e1beb2e-447e-4d11-a7a4-ac2ea6cc4440" />
+<img width="400" height="692" alt="raffletool2" src="https://github.com/user-attachments/assets/0e1beb2e-447e-4d11-a7a4-ac2ea6cc4440" />
 
 ---
 
