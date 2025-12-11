@@ -1,6 +1,6 @@
 # **RaffleTool**
 
-**A simple, interactive Python script to run closest-number raffles with insights and tie highlighting.**
+**A simple, interactive Python script to run closest-number raffles with insights, tie highlighting, and fair duplicate-handling.**
 
 RaffleTool allows you to:
 
@@ -8,6 +8,7 @@ RaffleTool allows you to:
 * Accept submissions manually or via `.txt` import.
 * Automatically determine the closest-number winner for each prize.
 * Highlight ties and display additional insights sorted by distance.
+* Handle duplicate number entries fairly by prioritising earliest submissions.
   
 <img width="400" height="692" alt="raffletool2" src="https://github.com/user-attachments/assets/0e1beb2e-447e-4d11-a7a4-ac2ea6cc4440" />
 
@@ -16,6 +17,12 @@ RaffleTool allows you to:
 ## **Overview**
 
 RaffleTool is a Python script designed to simplify running a raffle where winners are determined by **closest guesses** to assigned random numbers. It's ideal for giveaways, events, or testing random selection in a transparent, auditable way.
+
+One of its key strengths is **fair duplicate-handling logic**:
+
+* If multiple entrants choose the same number, the first person to submit it gets priority.
+* Once someone wins, they are removed from the pool, ensuring later duplicates still have a chance on subsequent prizes.
+* All equal-distance submissions remain visible through tie reporting and insights.
 
 The script provides:
 
@@ -31,6 +38,7 @@ The script provides:
 * **Random number assignment (1–100)** – unique for each prize.
 * **Manual or `.txt` submissions** – flexible entry handling.
 * **Closest-number winner selection** – automatically determines winners.
+* **Fair duplicate-handling logic** – earliest submissions get priority, later duplicates stay eligible after the earlier one wins.
 * **Tie highlighting and insights** – see who came closest even if they didn’t win.
 * **Terminal-friendly display** – prizes and winners highlighted with bold formatting.
 
